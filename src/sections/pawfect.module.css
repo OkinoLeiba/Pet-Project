@@ -1,0 +1,130 @@
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #9ac9e3;
+    width: 1440px;
+    height: 685px;
+}
+.rectangleWrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 685px;
+}
+.frameChild {
+    width: 523px;
+    position: relative;
+    height: 548.8px;
+}
+.findYourPawfect {
+    width: 635px;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 56px;
+    font-weight: 600;
+    display: inline-block;
+}
+.createProfile {
+    width: 635px;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 55.22px;
+    display: inline-block;
+    height: 52px;
+    flex-shrink: 0;
+}
+.selectMustHaves {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 52px;
+}
+.browsePetsContainer {
+    width: 740px;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 55.22px;
+    display: inline-block;
+    height: 52px;
+    flex-shrink: 0;
+}
+.createProfileParent {
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 39px;
+    font-size: 38.98px;
+}
+.findYourPawfectMatchParent {
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.labelText {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 34px;
+    font-weight: 600;
+}
+.stateLayer {
+    width: 324px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    background-color: #023047;
+    height: 59.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+.frameParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.groupContainer {
+    position: absolute;
+    top: 68px;
+    left: 75px;
+    height: 549px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 27px;
+}
+.groupParent {
+    width: 100%;
+    position: relative;
+    height: 685px;
+    text-align: left;
+    font-size: 48px;
+    color: #023047;
+    font-family: Poppins;
+}
+

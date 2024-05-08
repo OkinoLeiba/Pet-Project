@@ -1,0 +1,201 @@
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1440px;
+    height: 515px;
+}
+.findYour {
+    margin: 0;
+}
+.findYourPerfectContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: -0.04em;
+    line-height: 100%;
+    font-weight: 600;
+    display: inline-block;
+    width: 748px;
+}
+.discoverYourNew {
+    position: absolute;
+    top: 148px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 32px;
+    display: inline-block;
+    width: 748px;
+}
+.findYourPerfectCompanionParent {
+    width: 748px;
+    position: relative;
+    height: 180px;
+}
+.leadingIcon {
+    width: 48px;
+    height: 48px;
+    display: none;
+}
+.supportingText {
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.content {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.stateLayer {
+    flex: 1;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px;
+    gap: 4px;
+}
+.content1 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 24px;
+}
+.icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.stateLayer2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+.container {
+    border-radius: 100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.stTrailingIcon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.trailingElements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.stateLayer1 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px;
+    gap: 4px;
+}
+.searchBar {
+    width: 639px;
+    border-radius: 32px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 65px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 16px;
+    gap: 4px;
+    min-width: 360px;
+    max-width: 720px;
+}
+.cats {
+    position: relative;
+}
+.tag {
+    border-radius: 50px;
+    background-color: #113045;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+}
+.tags {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px;
+    gap: 25px;
+    color: #fff;
+}
+.searchBarParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 16px;
+    color: rgba(86, 92, 92, 0.87);
+    font-family: Roboto;
+}
+.groupParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.mediaIcon {
+    width: 487px;
+    position: relative;
+    border-radius: 16px;
+    height: 487px;
+    object-fit: cover;
+}
+.frameParent {
+    position: absolute;
+    top: 14px;
+    left: 74px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 57px;
+}
+.rectangleParent {
+    width: 100%;
+    position: relative;
+    height: 515px;
+    text-align: left;
+    font-size: 64px;
+    color: #121212;
+    font-family: Poppins;
+}
+

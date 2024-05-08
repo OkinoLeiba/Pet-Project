@@ -1,0 +1,262 @@
+.meetYourFuture {
+    position: absolute;
+    top: 0px;
+    left: 395px;
+    letter-spacing: -0.04em;
+    line-height: 56px;
+    font-weight: 600;
+    display: inline-block;
+    width: 565px;
+}
+.mediaIcon {
+    position: absolute;
+    height: 53.29%;
+    width: calc(100% + 0.8px);
+    top: 0%;
+    right: -0.8px;
+    bottom: 46.71%;
+    left: 0px;
+    border-radius: 5.8px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.frameChild {
+    width: 338px;
+    position: relative;
+    height: 268px;
+}
+.imageCardInner {
+    position: absolute;
+    top: 262px;
+    left: 0.38px;
+    width: 338px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.supportingText {
+    position: absolute;
+    top: 118px;
+    left: 0px;
+    line-height: 140%;
+    display: inline-block;
+    width: 312px;
+}
+.title {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.subhead {
+    position: relative;
+    line-height: 140%;
+    color: #49454f;
+}
+.titleParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.frameParent {
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+    color: #000;
+}
+.title3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.icons {
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.groupDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 312px;
+    height: 32px;
+    font-size: 24px;
+    color: #1d1b20;
+}
+.cardContent {
+    position: absolute;
+    top: 293px;
+    left: 12.38px;
+    width: 312px;
+    height: 206px;
+}
+.imageCard {
+    position: absolute;
+    top: -0.97px;
+    left: 109.66px;
+    border-radius: 6px;
+    border: 1px solid #cbcbcb;
+    box-sizing: border-box;
+    width: 339.4px;
+    height: 531.9px;
+    overflow: hidden;
+}
+.imageCardChild {
+    position: absolute;
+    top: 262px;
+    left: -0.44px;
+    width: 338px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.cardContent1 {
+    position: absolute;
+    top: 293px;
+    left: 12.56px;
+    width: 312px;
+    height: 206px;
+}
+.imageCard1 {
+    position: absolute;
+    top: -0.97px;
+    left: 472.47px;
+    border-radius: 6px;
+    border: 1px solid #cbcbcb;
+    box-sizing: border-box;
+    width: 339.4px;
+    height: 531.9px;
+    overflow: hidden;
+}
+.frameInner {
+    width: 339px;
+    position: relative;
+    height: 268px;
+}
+.imageCardInner1 {
+    position: absolute;
+    top: 262px;
+    left: 0px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.cardContent2 {
+    position: absolute;
+    top: 293px;
+    left: 12.75px;
+    width: 312px;
+    height: 206px;
+}
+.imageCard2 {
+    position: absolute;
+    top: -0.97px;
+    left: 835.28px;
+    border-radius: 6px;
+    border: 1px solid #cbcbcb;
+    box-sizing: border-box;
+    width: 339.4px;
+    height: 531.9px;
+    overflow: hidden;
+}
+.icons3 {
+    position: absolute;
+    top: calc(50% - 32px);
+    left: 0px;
+    width: 59.9px;
+    height: 64px;
+    overflow: hidden;
+}
+.icons4 {
+    position: absolute;
+    top: calc(50% - 32px);
+    right: 0px;
+    width: 60px;
+    height: 59px;
+    overflow: hidden;
+}
+.iconsParent {
+    position: absolute;
+    top: calc(50% + 6px);
+    left: 0px;
+    width: 1290px;
+    height: 64px;
+}
+.imageCardParent {
+    width: 1290px;
+    position: relative;
+    height: 530px;
+}
+.labelText {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 34px;
+    font-weight: 600;
+}
+.stateLayer {
+    width: 324px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.button {
+    width: 296.8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    background-color: #023047;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+.groupParent {
+    position: absolute;
+    top: 101px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 16px;
+    color: #49454f;
+}
+.meetYourFutureFriendParent {
+    width: 100%;
+    position: relative;
+    height: 707px;
+    text-align: left;
+    font-size: 48px;
+    color: #000;
+    font-family: Poppins;
+}
+

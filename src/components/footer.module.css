@@ -1,0 +1,200 @@
+.adoptspot {
+    width: 114px;
+    position: relative;
+    letter-spacing: -0.02em;
+    display: inline-block;
+    height: 32.6px;
+    flex-shrink: 0;
+}
+.findYourPerfect {
+    width: 209px;
+    position: relative;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: Poppins;
+    display: inline-block;
+}
+.companyDetails {
+    flex: 1;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+    font-size: 22px;
+    color: #fff;
+    font-family: Roboto;
+}
+.company {
+    position: relative;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 600;
+}
+.aboutUs {
+    position: relative;
+    line-height: 19px;
+}
+.listsLinksSmall {
+    flex: 1;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 14px;
+}
+.wantToSupport {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+}
+.yourMoneyWill {
+    align-self: stretch;
+    position: relative;
+    line-height: 19px;
+}
+.placeholderSmallOn {
+    position: absolute;
+    width: 28.57%;
+    top: 0%;
+    left: 0%;
+    line-height: 14px;
+    display: inline-block;
+}
+.placeholder {
+    flex: 1;
+    position: relative;
+    height: 17px;
+}
+.inputField {
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #64748b;
+    box-sizing: border-box;
+    height: 33px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    color: #a0abbb;
+    font-family: Roboto;
+}
+.donate {
+    position: relative;
+    line-height: 14px;
+    font-weight: 600;
+}
+.buttonprimarysmallhoverno {
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #113045;
+    box-sizing: border-box;
+    height: 33px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    font-family: Inter;
+}
+.yourMoneyWillHelpUsRescueParent {
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px;
+    gap: 12px;
+    font-size: 14px;
+    color: #113045;
+}
+.wantToSupportUsParent {
+    width: 329.3px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+}
+.listsLinksSmall1 {
+    flex: 1;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 24px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.footer1 {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 32px;
+    box-sizing: border-box;
+}
+.copyright2021Container {
+    width: 204px;
+    position: relative;
+    line-height: 19px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.copyright {
+    position: absolute;
+    top: 310px;
+    left: 0px;
+    background-color: #343434;
+    width: 1440px;
+    height: 44px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #fff;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    background-color: #343434;
+    height: 354px;
+    text-align: left;
+    font-size: 16px;
+    color: #f8fafc;
+    font-family: Poppins;
+}
+

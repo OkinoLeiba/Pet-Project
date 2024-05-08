@@ -1,0 +1,155 @@
+.filters {
+    width: 332px;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    height: 24px;
+    flex-shrink: 0;
+}
+.groupChild {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+    width: 274px;
+    height: 51px;
+}
+.any {
+    width: 130px;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    height: 23px;
+    flex-shrink: 0;
+}
+.vectorIcon {
+    width: 12px;
+    position: relative;
+    height: 6px;
+}
+.anyParent {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px;
+}
+.rectangleParent {
+    width: 272px;
+    position: relative;
+    height: 49px;
+    font-size: 14px;
+}
+.typeOfPetsParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.track {
+    align-self: stretch;
+    position: relative;
+    border-radius: 14.42px 1.8px 1.8px 14.42px;
+    background-color: #dbdbdb;
+    height: 14.4px;
+}
+.activeTrack {
+    flex: 1;
+    border-radius: 14.42px 1.8px 1.8px 14.42px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stateLayer {
+    position: absolute;
+    height: calc(100% + 0.4px);
+    width: calc(100% + 0.4px);
+    top: 0px;
+    right: -0.4px;
+    bottom: -0.4px;
+    left: 0px;
+    border-radius: 3.6px;
+    background-color: rgba(255, 255, 255, 0.08);
+    display: none;
+}
+.handle {
+    width: 3.6px;
+    position: relative;
+    border-radius: 1.8px;
+    background-color: #979797;
+    height: 39.6px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.track1 {
+    align-self: stretch;
+    position: relative;
+    border-radius: 1.8px 14.42px 14.42px 1.8px;
+    background-color: #dbdbdb;
+    height: 14.4px;
+    z-index: 0;
+}
+.trackDotIcon {
+    width: 3.6px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 2px);
+    right: 3.91px;
+    height: 3.6px;
+    z-index: 1;
+}
+.inactiveTrack {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+.continuous {
+    width: 329px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5.4px;
+}
+.ageParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frameParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 20px;
+}
+.filtersParent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Roboto;
+}
+
