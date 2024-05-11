@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navbar from 'C:/Users/okino/source/pet_project_web/src/components/navbar';
-import Filter from 'C:/Users/okino/source/pet_project_web/src/components/footer.ts';
+import Navbar from './components/navbar';
+import Filter from './sections/filter';
+import Footer from './components/footer';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// consider 'as' type assertion
+const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(
   <React.StrictMode>
-    <Filter />
+    <Footer />
   </React.StrictMode>
 );
 

@@ -2,7 +2,7 @@ import { FunctionComponent } from 'react';
 import styles from './navbar.module.css';
 
 
-const Navbar:FunctionComponent = () => {
+const Navbar : FunctionComponent = () : React.ReactElement => {
   	return (
     		<div className={styles.navbarContainer}>
       			<div className={styles.logoWhitePawsParent}>

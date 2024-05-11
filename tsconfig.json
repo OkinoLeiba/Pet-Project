@@ -2,12 +2,18 @@
     "display": "petprojectweb",
     "_version": "1.0.0",
     "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
+      "target": "ES5",
+      "module": "ESNext",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
       "baseUrl": ".",
       "allowJs": true,
+      "declaration": true,
       "checkJs": false,
-      "jsx": "react",
+      "jsx": "react-jsx",
       "noEmit": true,
       "strict": true,
       "noImplicitAny": false,
@@ -16,10 +22,12 @@
       "alwaysStrict": true,
       "allowSyntheticDefaultImports": true,
       "esModuleInterop": true,
+      "moduleResolution": "node",
+      "isolatedModules": true,
       "skipLibCheck": true,
       "resolveJsonModule": true,
       "incremental": true,
-      "forceConsistentCasingInFileNames": false,
+      "forceConsistentCasingInFileNames": true,
       "diagnostics": true,
       "traceResolution": true,
       "maxNodeModuleJsDepth": 5,
@@ -36,6 +44,7 @@
         },
     },
     "include": [
+      "src",
       "app/*.tsx",
       "App/*.tsx",
       "app/**/*.tsx",
@@ -46,6 +55,10 @@
     ],
     "exclude": ["node_modules", ".cache", "dist"]
   }
+
+  
+  
+  
   
   // {
   //   "compilerOptions": {
